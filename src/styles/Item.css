@@ -1,0 +1,25 @@
+.c-item {
+    width: calc(50% - 20px);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    background: #EEE;
+}
+.c-item.c-item__hidden {
+    display: none;
+}
+.c-item .c-item--title {
+    background: #CCC;
+    font-weight: bold;
+    padding: 10px;
+}
+.c-item .c-item--url {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.c-item .c-item--images {
+    margin-bottom: 10px;
+}
+.c-item .c-item--images img {
+    margin-right: 10px;
+}

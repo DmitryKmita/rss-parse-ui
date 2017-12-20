@@ -1,0 +1,31 @@
+.c-app {
+  text-align: center;
+}
+
+.c-app--header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.c-app--title {
+  font-size: 1.5em;
+}
+
+.c-app--intro {
+  font-size: large;
+}
+
+.c-app--search {
+  margin-top: 10px;
+}
+.c-app--search input {
+  width: 60%;
+  font-size: 23px;
+  padding: 5px 15px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
